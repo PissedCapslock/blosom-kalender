@@ -1,470 +1,479 @@
 [
     {
+        "ritnummer": "49",
+        "naam": "Ottignies",
+        "vertrek": "8h30",
+        "afstand": 104,
+        "hoogtemeters": 1302,
+        "gpx": "resources/gpx/Rit49-Ottignies-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit49-Ottignies-BlosomHerenA.png"
+    },
+    {
         "ritnummer": "25",
         "naam": "Spy",
         "vertrek": "7h30",
-        "afstand": 27,
-        "hoogtemeters": 79,
-        "gpx": "/tmp/gpx/Rit25-Spy-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit25-Spy-BlosomHerenA.png"
+        "afstand": 127,
+        "hoogtemeters": 1279,
+        "gpx": "resources/gpx/Rit25-Spy-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit25-Spy-BlosomHerenA.png"
     },
     {
         "ritnummer": "38",
-        "naam": "PiÃ©train",
+        "naam": "Piétrain",
         "vertrek": "9h00",
         "afstand": 91,
-        "hoogtemeters": 90,
-        "gpx": "/tmp/gpx/Rit38-PiÂtrain-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit38-PiÂtrain-BlosomHerenA.png"
+        "hoogtemeters": 890,
+        "gpx": "resources/gpx/Rit38-Pietrain-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit38-Pietrain-BlosomHerenA.png"
     },
     {
         "ritnummer": "24",
         "naam": "Landen",
         "vertrek": "8h00",
-        "afstand": 17,
-        "hoogtemeters": 79,
-        "gpx": "/tmp/gpx/Rit24-Landen-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit24-Landen-BlosomHerenA.png"
+        "afstand": 117,
+        "hoogtemeters": 879,
+        "gpx": "resources/gpx/Rit24-Landen-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit24-Landen-BlosomHerenA.png"
     },
     {
         "ritnummer": "28",
         "naam": "Namen",
         "vertrek": "7h30",
-        "afstand": 53,
-        "hoogtemeters": 90,
-        "gpx": "/tmp/gpx/Rit28-Namen-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit28-Namen-BlosomHerenA.png"
+        "afstand": 153,
+        "hoogtemeters": 1690,
+        "gpx": "resources/gpx/Rit28-Namen-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit28-Namen-BlosomHerenA.png"
     },
     {
         "ritnummer": "29",
         "naam": "Lier",
         "vertrek": "9h00",
         "afstand": 82,
-        "hoogtemeters": 42,
-        "gpx": "/tmp/gpx/Rit29-Lier-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit29-Lier-BlosomHerenA.png"
+        "hoogtemeters": 342,
+        "gpx": "resources/gpx/Rit29-Lier-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit29-Lier-BlosomHerenA.png"
     },
     {
         "ritnummer": "39",
         "naam": "Bloesemrit naar Ransberg",
         "vertrek": "9h00",
         "afstand": 94,
-        "hoogtemeters": 57,
-        "gpx": "/tmp/gpx/Rit39-BloesemritNaarRansberg-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit39-BloesemritNaarRansberg-BlosomHerenA.png"
+        "hoogtemeters": 757,
+        "gpx": "resources/gpx/Rit39-BloesemritNaarRansberg-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit39-BloesemritNaarRansberg-BlosomHerenA.png"
     },
     {
         "ritnummer": "27",
         "naam": "Hoei",
         "vertrek": "7h30",
-        "afstand": 69,
-        "hoogtemeters": 53,
-        "gpx": "/tmp/gpx/Rit27-Hoei-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit27-Hoei-BlosomHerenA.png"
+        "afstand": 169,
+        "hoogtemeters": 1753,
+        "gpx": "resources/gpx/Rit27-Hoei-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit27-Hoei-BlosomHerenA.png"
     },
     {
         "ritnummer": "45",
         "naam": "Schulen",
         "vertrek": "8h00",
-        "afstand": 15,
-        "hoogtemeters": 70,
-        "gpx": "/tmp/gpx/Rit45-Schulen-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit45-Schulen-BlosomHerenA.png"
+        "afstand": 115,
+        "hoogtemeters": 670,
+        "gpx": "resources/gpx/Rit45-Schulen-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit45-Schulen-BlosomHerenA.png"
     },
     {
         "ritnummer": "50",
         "naam": "Bomal",
         "vertrek": "9h00",
         "afstand": 90,
-        "hoogtemeters": 55,
-        "gpx": "/tmp/gpx/Rit50-Bomal-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit50-Bomal-BlosomHerenA.png"
+        "hoogtemeters": 855,
+        "gpx": "resources/gpx/Rit50-Bomal-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit50-Bomal-BlosomHerenA.png"
     },
     {
         "ritnummer": "52",
-        "naam": "St.-GÃ©ry",
+        "naam": "St.-Géry",
         "vertrek": "8h30",
-        "afstand": 09,
-        "hoogtemeters": 15,
-        "gpx": "/tmp/gpx/Rit52-St-GÂry-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit52-St-GÂry-BlosomHerenA.png"
+        "afstand": 109,
+        "hoogtemeters": 1315,
+        "gpx": "resources/gpx/Rit52-St-Gery-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit52-St-Gery-BlosomHerenA.png"
     },
     {
         "ritnummer": "3",
         "naam": "Boutersem",
         "vertrek": "9h00",
         "afstand": 80,
-        "hoogtemeters": 79,
-        "gpx": "/tmp/gpx/Rit03-Boutersem-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit03-Boutersem-BlosomHerenA.png"
+        "hoogtemeters": 579,
+        "gpx": "resources/gpx/Rit03-Boutersem-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit03-Boutersem-BlosomHerenA.png"
     },
     {
         "ritnummer": "35",
-        "naam": "L'Ãcluse",
+        "naam": "L'écluse",
         "vertrek": "9h00",
         "afstand": 85,
-        "hoogtemeters": 89,
-        "gpx": "/tmp/gpx/Rit35-LÂcluse-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit35-LÂcluse-BlosomHerenA.png"
+        "hoogtemeters": 789,
+        "gpx": "resources/gpx/Rit35-Lecluse-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit35-Lecluse-BlosomHerenA.png"
     },
     {
         "ritnummer": "11",
         "naam": "Tienen",
         "vertrek": "9h00",
         "afstand": 77,
-        "hoogtemeters": 56,
-        "gpx": "/tmp/gpx/Rit11-Tienen-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit11-Tienen-BlosomHerenA.png"
+        "hoogtemeters": 656,
+        "gpx": "resources/gpx/Rit11-Tienen-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit11-Tienen-BlosomHerenA.png"
     },
     {
         "ritnummer": "6",
         "naam": "Boortmeerbeek",
         "vertrek": "9h00",
         "afstand": 73,
-        "hoogtemeters": 43,
-        "gpx": "/tmp/gpx/Rit06-Boortmeerbeek-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit06-Boortmeerbeek-BlosomHerenA.png"
+        "hoogtemeters": 343,
+        "gpx": "resources/gpx/Rit06-Boortmeerbeek-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit06-Boortmeerbeek-BlosomHerenA.png"
     },
     {
         "ritnummer": "43",
         "naam": "Steenhuffel",
         "vertrek": "9h00",
         "afstand": 87,
-        "hoogtemeters": 54,
-        "gpx": "/tmp/gpx/Rit43-Steenhuffel-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit43-Steenhuffel-BlosomHerenA.png"
+        "hoogtemeters": 354,
+        "gpx": "resources/gpx/Rit43-Steenhuffel-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit43-Steenhuffel-BlosomHerenA.png"
     },
     {
         "ritnummer": "33",
         "naam": "Westerlo",
         "vertrek": "8h30",
-        "afstand": 00,
-        "hoogtemeters": 27,
-        "gpx": "/tmp/gpx/Rit33-Westerlo-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit33-Westerlo-BlosomHerenA.png"
+        "afstand": 100,
+        "hoogtemeters": 427,
+        "gpx": "resources/gpx/Rit33-Westerlo-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit33-Westerlo-BlosomHerenA.png"
     },
     {
         "ritnummer": "22",
         "naam": "Averbode",
         "vertrek": "8h30",
         "afstand": 99,
-        "hoogtemeters": 46,
-        "gpx": "/tmp/gpx/Rit22-Averbode-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit22-Averbode-BlosomHerenA.png"
+        "hoogtemeters": 446,
+        "gpx": "resources/gpx/Rit22-Averbode-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit22-Averbode-BlosomHerenA.png"
     },
     {
         "ritnummer": "46",
         "naam": "Geraardsbergen",
         "vertrek": "7h30",
-        "afstand": 30,
-        "hoogtemeters": 47,
-        "gpx": "/tmp/gpx/Rit46-Geraardsbergen-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit46-Geraardsbergen-BlosomHerenA.png"
+        "afstand": 130,
+        "hoogtemeters": 1447,
+        "gpx": "resources/gpx/Rit46-Geraardsbergen-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit46-Geraardsbergen-BlosomHerenA.png"
     },
     {
         "ritnummer": "51",
         "naam": "Zoutleeuw",
         "vertrek": "8h00",
-        "afstand": 19,
-        "hoogtemeters": 05,
-        "gpx": "/tmp/gpx/Rit51-Zoutleeuw-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit51-Zoutleeuw-BlosomHerenA.png"
+        "afstand": 119,
+        "hoogtemeters": 905,
+        "gpx": "resources/gpx/Rit51-Zoutleeuw-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit51-Zoutleeuw-BlosomHerenA.png"
     },
     {
         "ritnummer": "59",
         "naam": "Merchtem",
         "vertrek": "9h00",
         "afstand": 94,
-        "hoogtemeters": 39,
-        "gpx": "/tmp/gpx/Rit59-Merchtem-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit59-Merchtem-BlosomHerenA.png"
+        "hoogtemeters": 639,
+        "gpx": "resources/gpx/Rit59-Merchtem-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit59-Merchtem-BlosomHerenA.png"
     },
     {
         "ritnummer": "53",
         "naam": "Tessenderlo",
         "vertrek": "9h00",
         "afstand": 91,
-        "hoogtemeters": 68,
-        "gpx": "/tmp/gpx/Rit53-Tessenderlo-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit53-Tessenderlo-BlosomHerenA.png"
+        "hoogtemeters": 568,
+        "gpx": "resources/gpx/Rit53-Tessenderlo-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit53-Tessenderlo-BlosomHerenA.png"
     },
     {
         "ritnummer": "36",
         "naam": "Vertrijk",
         "vertrek": "9h00",
         "afstand": 94,
-        "hoogtemeters": 16,
-        "gpx": "/tmp/gpx/Rit36-Vertrijk-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit36-Vertrijk-BlosomHerenA.png"
+        "hoogtemeters": 716,
+        "gpx": "resources/gpx/Rit36-Vertrijk-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit36-Vertrijk-BlosomHerenA.png"
     },
     {
         "ritnummer": "5",
-        "naam": "CÃ©roux-Mousty",
+        "naam": "Céroux-Mousty",
         "vertrek": "9h00",
         "afstand": 94,
-        "hoogtemeters": 26,
-        "gpx": "/tmp/gpx/Rit05-CÂroux-mousty-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit05-CÂroux-mousty-BlosomHerenA.png"
+        "hoogtemeters": 1026,
+        "gpx": "resources/gpx/Rit05-Ceroux-mousty-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit05-Ceroux-mousty-BlosomHerenA.png"
     },
     {
         "ritnummer": "19",
         "naam": "Vissenaken",
         "vertrek": "8h30",
-        "afstand": 06,
-        "hoogtemeters": 46,
-        "gpx": "/tmp/gpx/Rit19-Vissenaken-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit19-Vissenaken-BlosomHerenA.png"
+        "afstand": 106,
+        "hoogtemeters": 746,
+        "gpx": "resources/gpx/Rit19-Vissenaken-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit19-Vissenaken-BlosomHerenA.png"
     },
     {
         "ritnummer": "14",
         "naam": "Horst",
         "vertrek": "9h00",
         "afstand": 67,
-        "hoogtemeters": 48,
-        "gpx": "/tmp/gpx/Rit14-Horst-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit14-Horst-BlosomHerenA.png"
+        "hoogtemeters": 348,
+        "gpx": "resources/gpx/Rit14-Horst-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit14-Horst-BlosomHerenA.png"
     },
     {
         "ritnummer": "41",
         "naam": "Rit van 1000 hoogtemeters",
         "vertrek": "9h00",
         "afstand": 86,
-        "hoogtemeters": 71,
-        "gpx": "/tmp/gpx/Rit41-RitVan1000Hoogtemeters-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit41-RitVan1000Hoogtemeters-BlosomHerenA.png"
+        "hoogtemeters": 1071,
+        "gpx": "resources/gpx/Rit41-RitVan1000Hoogtemeters-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit41-RitVan1000Hoogtemeters-BlosomHerenA.png"
     },
     {
         "ritnummer": "54",
         "naam": "Nijvel",
         "vertrek": "8h00",
-        "afstand": 13,
-        "hoogtemeters": 36,
-        "gpx": "/tmp/gpx/Rit54-Nijvel-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit54-Nijvel-BlosomHerenA.png"
+        "afstand": 113,
+        "hoogtemeters": 1336,
+        "gpx": "resources/gpx/Rit54-Nijvel-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit54-Nijvel-BlosomHerenA.png"
     },
     {
         "ritnummer": "40",
         "naam": "Panoramisch Pajottenland",
         "vertrek": "7h30",
-        "afstand": 21,
-        "hoogtemeters": 48,
-        "gpx": "/tmp/gpx/Rit40-PanoramischPajottenland-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit40-PanoramischPajottenland-BlosomHerenA.png"
+        "afstand": 121,
+        "hoogtemeters": 1248,
+        "gpx": "resources/gpx/Rit40-PanoramischPajottenland-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit40-PanoramischPajottenland-BlosomHerenA.png"
     },
     {
         "ritnummer": "10",
         "naam": "Rillaar",
         "vertrek": "9h00",
         "afstand": 84,
-        "hoogtemeters": 31,
-        "gpx": "/tmp/gpx/Rit10-Rillaar-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit10-Rillaar-BlosomHerenA.png"
+        "hoogtemeters": 631,
+        "gpx": "resources/gpx/Rit10-Rillaar-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit10-Rillaar-BlosomHerenA.png"
     },
     {
         "ritnummer": "34",
         "naam": "Villers-la-Ville",
         "vertrek": "8h00",
-        "afstand": 10,
-        "hoogtemeters": 50,
-        "gpx": "/tmp/gpx/Rit34-Villers-la-ville-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit34-Villers-la-ville-BlosomHerenA.png"
+        "afstand": 110,
+        "hoogtemeters": 1350,
+        "gpx": "resources/gpx/Rit34-Villers-la-ville-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit34-Villers-la-ville-BlosomHerenA.png"
     },
     {
         "ritnummer": "31",
         "naam": "Oteppe",
         "vertrek": "7h30",
-        "afstand": 42,
-        "hoogtemeters": 25,
-        "gpx": "/tmp/gpx/Rit31-Oteppe-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit31-Oteppe-BlosomHerenA.png"
+        "afstand": 142,
+        "hoogtemeters": 1225,
+        "gpx": "resources/gpx/Rit31-Oteppe-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit31-Oteppe-BlosomHerenA.png"
     },
     {
         "ritnummer": "7",
         "naam": "Biez",
         "vertrek": "9h00",
         "afstand": 73,
-        "hoogtemeters": 27,
-        "gpx": "/tmp/gpx/Rit07-Biez-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit07-Biez-BlosomHerenA.png"
+        "hoogtemeters": 827,
+        "gpx": "resources/gpx/Rit07-Biez-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit07-Biez-BlosomHerenA.png"
     },
     {
         "ritnummer": "16",
         "naam": "Blanden",
         "vertrek": "9h00",
         "afstand": 72,
-        "hoogtemeters": 03,
-        "gpx": "/tmp/gpx/Rit16-Blanden-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit16-Blanden-BlosomHerenA.png"
+        "hoogtemeters": 603,
+        "gpx": "resources/gpx/Rit16-Blanden-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit16-Blanden-BlosomHerenA.png"
     },
     {
         "ritnummer": "2",
         "naam": "Langdorp",
         "vertrek": "9h00",
         "afstand": 75,
-        "hoogtemeters": 22,
-        "gpx": "/tmp/gpx/Rit02-Langdorp-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit02-Langdorp-BlosomHerenA.png"
+        "hoogtemeters": 422,
+        "gpx": "resources/gpx/Rit02-Langdorp-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit02-Langdorp-BlosomHerenA.png"
     },
     {
         "ritnummer": "55",
         "naam": "Bobbejaanland",
         "vertrek": "7h30",
-        "afstand": 30,
-        "hoogtemeters": 02,
-        "gpx": "/tmp/gpx/Rit55-Bobbejaanland-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit55-Bobbejaanland-BlosomHerenA.png"
+        "afstand": 130,
+        "hoogtemeters": 502,
+        "gpx": "resources/gpx/Rit55-Bobbejaanland-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit55-Bobbejaanland-BlosomHerenA.png"
     },
     {
         "ritnummer": "23",
         "naam": "Gijmel",
         "vertrek": "8h30",
-        "afstand": 00,
-        "hoogtemeters": 03,
-        "gpx": "/tmp/gpx/Rit23-Gijmel-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit23-Gijmel-BlosomHerenA.png"
+        "afstand": 100,
+        "hoogtemeters": 403,
+        "gpx": "resources/gpx/Rit23-Gijmel-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit23-Gijmel-BlosomHerenA.png"
     },
     {
         "ritnummer": "1",
         "naam": "Bonheiden",
         "vertrek": "9h00",
         "afstand": 79,
-        "hoogtemeters": 67,
-        "gpx": "/tmp/gpx/Rit01-Bonheiden-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit01-Bonheiden-BlosomHerenA.png"
+        "hoogtemeters": 367,
+        "gpx": "resources/gpx/Rit01-Bonheiden-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit01-Bonheiden-BlosomHerenA.png"
     },
     {
         "ritnummer": "21",
         "naam": "Kerkom",
         "vertrek": "9h00",
         "afstand": 72,
-        "hoogtemeters": 53,
-        "gpx": "/tmp/gpx/Rit21-Kerkom-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit21-Kerkom-BlosomHerenA.png"
+        "hoogtemeters": 453,
+        "gpx": "resources/gpx/Rit21-Kerkom-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit21-Kerkom-BlosomHerenA.png"
     },
     {
         "ritnummer": "32",
         "naam": "Orp-Jauche BK",
         "vertrek": "9h00",
         "afstand": 93,
-        "hoogtemeters": 86,
-        "gpx": "/tmp/gpx/Rit32-Orp-jaucheBk-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit32-Orp-jaucheBk-BlosomHerenA.png"
+        "hoogtemeters": 886,
+        "gpx": "resources/gpx/Rit32-Orp-jaucheBk-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit32-Orp-jaucheBk-BlosomHerenA.png"
     },
     {
         "ritnummer": "17",
         "naam": "Nieuwrode",
         "vertrek": "9h00",
         "afstand": 78,
-        "hoogtemeters": 48,
-        "gpx": "/tmp/gpx/Rit17-Nieuwrode-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit17-Nieuwrode-BlosomHerenA.png"
+        "hoogtemeters": 348,
+        "gpx": "resources/gpx/Rit17-Nieuwrode-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit17-Nieuwrode-BlosomHerenA.png"
     },
     {
         "ritnummer": "18",
         "naam": "Baal",
         "vertrek": "9h00",
         "afstand": 75,
-        "hoogtemeters": 69,
-        "gpx": "/tmp/gpx/Rit18-Baal-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit18-Baal-BlosomHerenA.png"
+        "hoogtemeters": 369,
+        "gpx": "resources/gpx/Rit18-Baal-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit18-Baal-BlosomHerenA.png"
     },
     {
         "ritnummer": "47",
         "naam": "Wolfsdonk",
         "vertrek": "9h00",
         "afstand": 84,
-        "hoogtemeters": 92,
-        "gpx": "/tmp/gpx/Rit47-Wolfsdonk-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit47-Wolfsdonk-BlosomHerenA.png"
+        "hoogtemeters": 392,
+        "gpx": "resources/gpx/Rit47-Wolfsdonk-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit47-Wolfsdonk-BlosomHerenA.png"
     },
     {
         "ritnummer": "48",
         "naam": " Marche-les-Dames",
         "vertrek": "7h30",
-        "afstand": 57,
-        "hoogtemeters": 84,
-        "gpx": "/tmp/gpx/Rit48Marche-les-dames-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit48Marche-les-dames-BlosomHerenA.png"
+        "afstand": 157,
+        "hoogtemeters": 1584,
+        "gpx": "resources/gpx/Rit48Marche-les-dames-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit48Marche-les-dames-BlosomHerenA.png"
     },
     {
         "ritnummer": "20",
         "naam": "Jodoigne WK",
         "vertrek": "8h30",
         "afstand": 98,
-        "hoogtemeters": 75,
-        "gpx": "/tmp/gpx/Rit20-JodoigneWk-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit20-JodoigneWk-BlosomHerenA.png"
+        "hoogtemeters": 1075,
+        "gpx": "resources/gpx/Rit20-JodoigneWk-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit20-JodoigneWk-BlosomHerenA.png"
     },
     {
         "ritnummer": "15",
         "naam": "Tremelo",
         "vertrek": "9h00",
         "afstand": 87,
-        "hoogtemeters": 41,
-        "gpx": "/tmp/gpx/Rit15-Tremelo-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit15-Tremelo-BlosomHerenA.png"
+        "hoogtemeters": 341,
+        "gpx": "resources/gpx/Rit15-Tremelo-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit15-Tremelo-BlosomHerenA.png"
     },
     {
         "ritnummer": "42",
         "naam": "Bourgeois",
         "vertrek": "9h00",
         "afstand": 81,
-        "hoogtemeters": 89,
-        "gpx": "/tmp/gpx/Rit42-Bourgeois-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit42-Bourgeois-BlosomHerenA.png"
+        "hoogtemeters": 989,
+        "gpx": "resources/gpx/Rit42-Bourgeois-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit42-Bourgeois-BlosomHerenA.png"
     },
     {
         "ritnummer": "12",
         "naam": "Waterloo",
         "vertrek": "9h00",
         "afstand": 80,
-        "hoogtemeters": 63,
-        "gpx": "/tmp/gpx/Rit12-Waterloo-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit12-Waterloo-BlosomHerenA.png"
+        "hoogtemeters": 963,
+        "gpx": "resources/gpx/Rit12-Waterloo-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit12-Waterloo-BlosomHerenA.png"
     },
     {
         "ritnummer": "37",
         "naam": "Meensel-Kiezegem",
         "vertrek": "9h00",
         "afstand": 91,
-        "hoogtemeters": 39,
-        "gpx": "/tmp/gpx/Rit37-Meensel-kiezegem-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit37-Meensel-kiezegem-BlosomHerenA.png"
+        "hoogtemeters": 739,
+        "gpx": "resources/gpx/Rit37-Meensel-kiezegem-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit37-Meensel-kiezegem-BlosomHerenA.png"
     },
     {
         "ritnummer": "13",
         "naam": "Archennes",
         "vertrek": "9h00",
         "afstand": 78,
-        "hoogtemeters": 56,
-        "gpx": "/tmp/gpx/Rit13-Archennes-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit13-Archennes-BlosomHerenA.png"
+        "hoogtemeters": 756,
+        "gpx": "resources/gpx/Rit13-Archennes-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit13-Archennes-BlosomHerenA.png"
     },
     {
         "ritnummer": "44",
         "naam": "Klein-Willebroek",
         "vertrek": "9h00",
         "afstand": 82,
-        "hoogtemeters": 60,
-        "gpx": "/tmp/gpx/Rit44-Klein-willebroek-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit44-Klein-willebroek-BlosomHerenA.png"
+        "hoogtemeters": 460,
+        "gpx": "resources/gpx/Rit44-Klein-willebroek-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit44-Klein-willebroek-BlosomHerenA.png"
     },
     {
         "ritnummer": "8",
         "naam": "Lovenjoel",
         "vertrek": "9h00",
         "afstand": 78,
-        "hoogtemeters": 53,
-        "gpx": "/tmp/gpx/Rit08-Lovenjoel-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit08-Lovenjoel-BlosomHerenA.png"
+        "hoogtemeters": 653,
+        "gpx": "resources/gpx/Rit08-Lovenjoel-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit08-Lovenjoel-BlosomHerenA.png"
     },
     {
         "ritnummer": "26",
-        "naam": "RonquiÃ¨res",
+        "naam": "Ronquières",
         "vertrek": "7h30",
-        "afstand": 24,
-        "hoogtemeters": 56,
-        "gpx": "/tmp/gpx/Rit26-RonquiÂres-BlosomHerenA.gpx",
-        "thumbnail": "/tmp/gpx/Rit26-RonquiÂres-BlosomHerenA.png"
+        "afstand": 124,
+        "hoogtemeters": 1456,
+        "gpx": "resources/gpx/Rit26-Ronquieres-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit26-Ronquieres-BlosomHerenA.png"
     }
 ]
