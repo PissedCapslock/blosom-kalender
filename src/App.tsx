@@ -1,26 +1,46 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {Rit} from './Rit';
+import {RitOverview} from './RitOverview';
+import {Container, Tabs, Tab} from 'react-bootstrap';
 
-const App: React.FC = () => {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+interface Props{
+
+}
+interface State{
+  ritten: Rit[];
 }
 
-export default App;
+export default class App extends React.Component<Props,State>{
+  constructor(props: Props){
+    super(props);
+
+    this.state = {
+      ritten: []
+    };
+    fetch('resources/ritten.json')
+    .then(response => response.json())
+    .then(data => {
+      this.setState({
+        ritten: data as Rit[]
+      })
+    })
+  }
+
+  render(){
+    return (
+      <Container>
+        <Tabs defaultActiveKey="overzicht" id="kalender-overzicht">
+          <Tab eventKey="overzicht" title="Overzicht beschikbare ritten">
+            <RitOverview ritten={this.state.ritten}/>
+          </Tab>
+          <Tab eventKey="kalender" title="Kalender 2020">
+            Kalender 2020
+          </Tab>
+        </Tabs>
+        
+      </Container>
+      
+    );
+  }
+}
