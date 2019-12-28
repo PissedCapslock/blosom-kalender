@@ -1,8 +1,8 @@
 import React from 'react';
 import { Rit } from './Rit';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFileDownload, faMountain, faRoute, faClock, faMapMarkedAlt } from '@fortawesome/free-solid-svg-icons';
-import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
+import { faFileDownload, faMountain, faRoute, faClock, faMapMarkedAlt, faFlagCheckered, faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
+import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Card from '@material-ui/core/Card';
@@ -19,7 +19,7 @@ export interface Props {
 
 const useStyles = makeStyles({
     card: {
-        width: 300,
+        maxWidth: 300,
     },
     media: {
         height: 256,
@@ -41,6 +41,7 @@ export default function RitOverview(props: Props) {
 }
 
 function renderRit(rit: Rit, classes: Record<"card" | "media", string>) {
+    const props = rit.gpx ? { href: rit.gpx } : { disabled: true };
     return (
         <Card className={classes.card}>
             <CardActionArea>
@@ -54,22 +55,21 @@ function renderRit(rit: Rit, classes: Record<"card" | "media", string>) {
                         Rit {rit.ritnummer}: {rit.naam}
                     </Typography>
                     <Typography variant="body2" color="textSecondary" component="p">
-                        <FontAwesomeIcon icon={faRoute} />&nbsp;{rit.afstand} km -&nbsp;
-                            <FontAwesomeIcon icon={faMountain} />&nbsp;{rit.hoogtemeters} m -&nbsp;
-                            <FontAwesomeIcon icon={faClock} />&nbsp;{rit.vertrek}<br />
+                        <FontAwesomeIcon icon={faRoute} />&nbsp;{rit.afstand} km<br/>
+                            <FontAwesomeIcon icon={faMountain} />&nbsp;{rit.hoogtemeters} m<br/>
+                            <FontAwesomeIcon icon={faClock} />&nbsp;{rit.vertrek}<br/>
+                            <FontAwesomeIcon icon={faFlagCheckered} />&nbsp;{rit.finish}<br/>
+                            <FontAwesomeIcon icon={faCalendarAlt} />&nbsp;
                     </Typography>
                 </CardContent>
             </CardActionArea>
             <CardActions>
-                {rit.gpx ? 
-                <Button size="small" color="primary" href={rit.gpx}>
-                    <FontAwesomeIcon icon={faFileDownload} />&nbsp;Download GPX
-                    </Button> : 
-                    <Button size="small" color="primary" disabled>
-                        <FontAwesomeIcon icon={faFileDownload} />&nbsp;Download GPX
-                    </Button>}
+                <Button size="small" color="primary" {...props}> 
+                    <FontAwesomeIcon icon={faFileDownload} />&nbsp;Download
+                </Button>
+                <br/>
                 <Button size="small" color="primary">
-                    <FontAwesomeIcon icon={faMapMarkedAlt} />&nbsp;Toon op kaart
+                    <FontAwesomeIcon icon={faMapMarkedAlt} />&nbsp;Kaart
                     </Button>
             </CardActions>
         </Card>
