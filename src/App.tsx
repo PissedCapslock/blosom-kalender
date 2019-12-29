@@ -8,13 +8,15 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
+import { Map } from './Map';
 
 interface Props {
 
 }
 interface State {
   ritten: Rit[],
-  selectedTab: number
+  selectedTab: number,
+  selectedGPX: string | undefined
 }
 
 export default class App extends React.Component<Props, State>{
@@ -29,7 +31,8 @@ export default class App extends React.Component<Props, State>{
     super(props);
     this.state = {
       ritten: [],
-      selectedTab: 0
+      selectedTab: 0,
+      selectedGPX: undefined
     };
   }
 
@@ -37,6 +40,13 @@ export default class App extends React.Component<Props, State>{
     const resp = await fetch('resources/ritten.json');
     const json = await resp.json();
     this.setState({ ritten: json });
+  }
+
+  showGPXOnMap(gpx: string | undefined){
+    this.setState({
+      selectedTab: 2,
+      selectedGPX: gpx
+    })
   }
 
   render() {
@@ -52,14 +62,20 @@ export default class App extends React.Component<Props, State>{
           >
             <Tab label="Beschikbare ritten" />
             <Tab label="Kalender 2020" />
+            <Tab label="Kaart" />
           </Tabs>
         </Paper>
 
         <TabPanel value={this.state.selectedTab} index={0}>
-          <RitOverview.default ritten={this.state.ritten} />
+          <RitOverview.default ritten={this.state.ritten} showOnMapCallBack={this.showGPXOnMap.bind(this)}/>
         </TabPanel>
         <TabPanel value={this.state.selectedTab} index={1}>
           Kalender 2020
+        </TabPanel>
+        <TabPanel value={this.state.selectedTab} index={2}>
+          <div id="leaflet-container">
+            <Map gpx={this.state.selectedGPX}/>
+          </div>            
         </TabPanel>
       </Container>
     );

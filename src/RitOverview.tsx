@@ -14,7 +14,8 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 
 export interface Props {
-    ritten: Rit[];
+    ritten: Rit[],
+    showOnMapCallBack(gpx: string | undefined): void
 }
 
 const useStyles = makeStyles({
@@ -34,13 +35,13 @@ export default function RitOverview(props: Props) {
     return (
         <Grid container spacing={3}>
             {ritten.map((r, index) => {
-                return <Grid item xs key={r.ritnummer}><Paper>{renderRit(r, classes)}</Paper></Grid>
+                return <Grid item xs key={r.ritnummer}><Paper>{renderRit(props, r, classes)}</Paper></Grid>
             })}
         </Grid>
     );
 }
 
-function renderRit(rit: Rit, classes: Record<"card" | "media", string>) {
+function renderRit(properties: Props, rit: Rit, classes: Record<"card" | "media", string>) {
     const props = rit.gpx ? { href: rit.gpx } : { disabled: true };
     return (
         <Card className={classes.card}>
@@ -68,7 +69,7 @@ function renderRit(rit: Rit, classes: Record<"card" | "media", string>) {
                     <FontAwesomeIcon icon={faFileDownload} />&nbsp;Download
                 </Button>
                 <br/>
-                <Button size="small" color="primary">
+                <Button size="small" color="primary" onClick={() => properties.showOnMapCallBack(rit.gpx)} >
                     <FontAwesomeIcon icon={faMapMarkedAlt} />&nbsp;Kaart
                     </Button>
             </CardActions>
