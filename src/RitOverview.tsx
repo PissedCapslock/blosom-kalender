@@ -12,9 +12,11 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
+import { KalenderItem } from './KalenderItem';
 
 export interface Props {
     ritten: Rit[],
+    kalender: KalenderItem[],
     showOnMapCallBack(gpx: string | undefined): void
 }
 
@@ -41,8 +43,16 @@ export default function RitOverview(props: Props) {
     );
 }
 
+function retrieveDatum(rit: Rit, props: Props){
+    const kalenderItem = props.kalender
+        .find(kalenderItem => kalenderItem.ritNummer === rit.ritnummer);
+    return kalenderItem ? kalenderItem.datum : undefined;
+}
+
 function renderRit(properties: Props, rit: Rit, classes: Record<"card" | "media", string>) {
     const props = rit.gpx ? { href: rit.gpx } : { disabled: true };
+    const datum = retrieveDatum(rit, properties);
+    const datumString = datum ? datum.getDate() + "/" + datum.getMonth() + "/" + datum.getFullYear() : "Niet gepland";
     return (
         <Card className={classes.card}>
             <CardActionArea>
@@ -60,7 +70,7 @@ function renderRit(properties: Props, rit: Rit, classes: Record<"card" | "media"
                             <FontAwesomeIcon icon={faMountain} />&nbsp;{rit.hoogtemeters} m<br/>
                             <FontAwesomeIcon icon={faClock} />&nbsp;{rit.vertrek}<br/>
                             <FontAwesomeIcon icon={faFlagCheckered} />&nbsp;{rit.finish}<br/>
-                            <FontAwesomeIcon icon={faCalendarAlt} />&nbsp;
+                            <FontAwesomeIcon icon={faCalendarAlt} />&nbsp;{datumString}
                     </Typography>
                 </CardContent>
             </CardActionArea>
@@ -69,7 +79,7 @@ function renderRit(properties: Props, rit: Rit, classes: Record<"card" | "media"
                     <FontAwesomeIcon icon={faFileDownload} />&nbsp;Download
                 </Button>
                 <br/>
-                <Button size="small" color="primary" onClick={() => properties.showOnMapCallBack(rit.gpx)} >
+                <Button size="small" color="primary" onClick={() => properties.showOnMapCallBack(rit.gpx)} disabled={rit.gpx === undefined}>
                     <FontAwesomeIcon icon={faMapMarkedAlt} />&nbsp;Kaart
                     </Button>
             </CardActions>

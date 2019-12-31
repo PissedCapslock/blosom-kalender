@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import { Rit } from './Rit';
 import * as RitOverview from './RitOverview';
+import * as Kalender from './Kalender';
 import { Container } from '@material-ui/core';
 import Paper from '@material-ui/core/Paper';
 import Tabs from '@material-ui/core/Tabs';
@@ -9,12 +10,14 @@ import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import { Map } from './Map';
+import {KalenderItem} from './KalenderItem';
 
 interface Props {
 
 }
 interface State {
   ritten: Rit[],
+  kalender: KalenderItem[],
   selectedTab: number,
   selectedGPX: string | undefined
 }
@@ -31,6 +34,7 @@ export default class App extends React.Component<Props, State>{
     super(props);
     this.state = {
       ritten: [],
+      kalender: [],
       selectedTab: 0,
       selectedGPX: undefined
     };
@@ -39,7 +43,11 @@ export default class App extends React.Component<Props, State>{
   async componentDidMount() {
     const resp = await fetch('resources/ritten.json');
     const json = await resp.json();
-    this.setState({ ritten: json });
+
+    const kalenderresp = await fetch('resources/kalender.json');
+    const kalenderjson = await kalenderresp.json();
+
+    this.setState({ ritten: json, kalender: kalenderjson });
   }
 
   showGPXOnMap(gpx: string | undefined){
@@ -67,10 +75,10 @@ export default class App extends React.Component<Props, State>{
         </Paper>
 
         <TabPanel value={this.state.selectedTab} index={0}>
-          <RitOverview.default ritten={this.state.ritten} showOnMapCallBack={this.showGPXOnMap.bind(this)}/>
+          <RitOverview.default ritten={this.state.ritten} showOnMapCallBack={this.showGPXOnMap.bind(this)} kalender={this.state.kalender}/>
         </TabPanel>
         <TabPanel value={this.state.selectedTab} index={1}>
-          Kalender 2020
+          <Kalender.default ritten={this.state.ritten} showOnMapCallBack={this.showGPXOnMap.bind(this)} kalender={this.state.kalender}/>
         </TabPanel>
         <TabPanel value={this.state.selectedTab} index={2}>
           <div id="leaflet-container">
