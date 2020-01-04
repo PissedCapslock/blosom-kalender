@@ -1,6 +1,6 @@
 export interface KalenderItem{
     ritNummer: number,
-    datum: Date,
+    datum: string,
     wk: boolean,
     bk: boolean
 }

@@ -1,6 +1,6 @@
 [
     {
-        "ritnummer": "49",
+        "ritnummer": 49,
         "naam": "Ottignies",
         "vertrek": "8h30",
         "finish": "Bosberg",
@@ -10,7 +10,7 @@
         "thumbnail": "resources/gpx/Rit49-Ottignies-BlosomHerenA.png"
     },
     {
-        "ritnummer": "25",
+        "ritnummer": 25,
         "naam": "Spy",
         "vertrek": "7h30",
         "finish": "Grubbe",
@@ -20,7 +20,7 @@
         "thumbnail": "resources/gpx/Rit25-Spy-BlosomHerenA.png"
     },
     {
-        "ritnummer": "38",
+        "ritnummer": 38,
         "naam": "Piétrain",
         "vertrek": "9h00",
         "finish": "Grubbe",
@@ -30,7 +30,7 @@
         "thumbnail": "resources/gpx/Rit38-Pietrain-BlosomHerenA.png"
     },
     {
-        "ritnummer": "24",
+        "ritnummer": 24,
         "naam": "Landen",
         "vertrek": "8h00",
         "finish": "Grubbe",
@@ -40,7 +40,7 @@
         "thumbnail": "resources/gpx/Rit24-Landen-BlosomHerenA.png"
     },
     {
-        "ritnummer": "28",
+        "ritnummer": 28,
         "naam": "Namen",
         "vertrek": "7h30",
         "finish": "Grubbe",
@@ -50,7 +50,7 @@
         "thumbnail": "resources/gpx/Rit28-Namen-BlosomHerenA.png"
     },
     {
-        "ritnummer": "29",
+        "ritnummer": 29,
         "naam": "Lier",
         "vertrek": "9h00",
         "finish": "Schuur",
@@ -60,7 +60,7 @@
         "thumbnail": "resources/gpx/Rit29-Lier-BlosomHerenA.png"
     },
     {
-        "ritnummer": "39",
+        "ritnummer": 39,
         "naam": "Bloesemrit naar Ransberg",
         "vertrek": "9h00",
         "finish": "Bertembos",
@@ -70,7 +70,7 @@
         "thumbnail": "resources/gpx/Rit39-BloesemritNaarRansberg-BlosomHerenA.png"
     },
     {
-        "ritnummer": "27",
+        "ritnummer": 27,
         "naam": "Hoei",
         "vertrek": "7h30",
         "finish": "Grubbe",
@@ -80,7 +80,7 @@
         "thumbnail": "resources/gpx/Rit27-Hoei-BlosomHerenA.png"
     },
     {
-        "ritnummer": "45",
+        "ritnummer": 45,
         "naam": "Schulen",
         "vertrek": "8h00",
         "finish": "Ronny",
@@ -90,7 +90,7 @@
         "thumbnail": "resources/gpx/Rit45-Schulen-BlosomHerenA.png"
     },
     {
-        "ritnummer": "50",
+        "ritnummer": 50,
         "naam": "Bomal",
         "vertrek": "9h00",
         "finish": "Grubbe",
@@ -100,7 +100,7 @@
         "thumbnail": "resources/gpx/Rit50-Bomal-BlosomHerenA.png"
     },
     {
-        "ritnummer": "52",
+        "ritnummer": 52,
         "naam": "St.-Géry",
         "vertrek": "8h30",
         "finish": "Grubbe",
@@ -110,7 +110,7 @@
         "thumbnail": "resources/gpx/Rit52-St-Gery-BlosomHerenA.png"
     },
     {
-        "ritnummer": "3",
+        "ritnummer": 3,
         "naam": "Boutersem",
         "vertrek": "9h00",
         "finish": "Ronny",
@@ -120,7 +120,7 @@
         "thumbnail": "resources/gpx/Rit03-Boutersem-BlosomHerenA.png"
     },
     {
-        "ritnummer": "35",
+        "ritnummer": 35,
         "naam": "L'écluse",
         "vertrek": "9h00",
         "finish": "Bosberg",
@@ -130,7 +130,7 @@
         "thumbnail": "resources/gpx/Rit35-Lecluse-BlosomHerenA.png"
     },
     {
-        "ritnummer": "11",
+        "ritnummer": 11,
         "naam": "Tienen",
         "vertrek": "9h00",
         "finish": "Grubbe",
@@ -140,7 +140,7 @@
         "thumbnail": "resources/gpx/Rit11-Tienen-BlosomHerenA.png"
     },
     {
-        "ritnummer": "6",
+        "ritnummer": 6,
         "naam": "Boortmeerbeek",
         "vertrek": "9h00",
         "finish": "Ronny",
@@ -150,7 +150,7 @@
         "thumbnail": "resources/gpx/Rit06-Boortmeerbeek-BlosomHerenA.png"
     },
     {
-        "ritnummer": "43",
+        "ritnummer": 43,
         "naam": "Steenhuffel",
         "vertrek": "9h00",
         "finish": "Schuur",
@@ -160,7 +160,7 @@
         "thumbnail": "resources/gpx/Rit43-Steenhuffel-BlosomHerenA.png"
     },
     {
-        "ritnummer": "33",
+        "ritnummer": 33,
         "naam": "Westerlo",
         "vertrek": "8h30",
         "finish": "Ronny",
@@ -170,7 +170,7 @@
         "thumbnail": "resources/gpx/Rit33-Westerlo-BlosomHerenA.png"
     },
     {
-        "ritnummer": "22",
+        "ritnummer": 22,
         "naam": "Averbode",
         "vertrek": "8h30",
         "finish": "Ronny",
@@ -180,7 +180,7 @@
         "thumbnail": "resources/gpx/Rit22-Averbode-BlosomHerenA.png"
     },
     {
-        "ritnummer": "46",
+        "ritnummer": 46,
         "naam": "Geraardsbergen",
         "vertrek": "7h30",
         "finish": "Niet standaard",
@@ -190,9 +190,9 @@
         "thumbnail": "resources/gpx/Rit46-Geraardsbergen-BlosomHerenA.png"
     },
     {
-        "ritnummer": "51",
+        "ritnummer": 51,
         "naam": "Zoutleeuw",
-        "vertrek": "8h00",
+        "vertrek": "8h30",
         "finish": "Tomme",
         "afstand": 119,
         "hoogtemeters": 905,
@@ -200,7 +200,7 @@
         "thumbnail": "resources/gpx/Rit51-Zoutleeuw-BlosomHerenA.png"
     },
     {
-        "ritnummer": "59",
+        "ritnummer": 59,
         "naam": "Merchtem",
         "vertrek": "9h00",
         "finish": "Ziptstraat",
@@ -210,7 +210,7 @@
         "thumbnail": "resources/gpx/Rit59-Merchtem-BlosomHerenA.png"
     },
     {
-        "ritnummer": "53",
+        "ritnummer": 53,
         "naam": "Tessenderlo",
         "vertrek": "9h00",
         "finish": "Schuur",
@@ -220,7 +220,7 @@
         "thumbnail": "resources/gpx/Rit53-Tessenderlo-BlosomHerenA.png"
     },
     {
-        "ritnummer": "36",
+        "ritnummer": 36,
         "naam": "Vertrijk",
         "vertrek": "9h00",
         "finish": "Bertembos",
@@ -230,7 +230,7 @@
         "thumbnail": "resources/gpx/Rit36-Vertrijk-BlosomHerenA.png"
     },
     {
-        "ritnummer": "5",
+        "ritnummer": 5,
         "naam": "Céroux-Mousty",
         "vertrek": "9h00",
         "finish": "Grubbe",
@@ -240,7 +240,7 @@
         "thumbnail": "resources/gpx/Rit05-Ceroux-mousty-BlosomHerenA.png"
     },
     {
-        "ritnummer": "19",
+        "ritnummer": 19,
         "naam": "Vissenaken",
         "vertrek": "8h30",
         "finish": "Ronny",
@@ -250,7 +250,7 @@
         "thumbnail": "resources/gpx/Rit19-Vissenaken-BlosomHerenA.png"
     },
     {
-        "ritnummer": "14",
+        "ritnummer": 14,
         "naam": "Horst",
         "vertrek": "9h00",
         "finish": "Botanica",
@@ -260,7 +260,7 @@
         "thumbnail": "resources/gpx/Rit14-Horst-BlosomHerenA.png"
     },
     {
-        "ritnummer": "41",
+        "ritnummer": 41,
         "naam": "Rit van 1000 hoogtemeters",
         "vertrek": "9h00",
         "finish": "Tomme",
@@ -270,7 +270,7 @@
         "thumbnail": "resources/gpx/Rit41-RitVan1000Hoogtemeters-BlosomHerenA.png"
     },
     {
-        "ritnummer": "54",
+        "ritnummer": 54,
         "naam": "Nijvel",
         "vertrek": "8h00",
         "finish": "Ziptstraat",
@@ -280,7 +280,7 @@
         "thumbnail": "resources/gpx/Rit54-Nijvel-BlosomHerenA.png"
     },
     {
-        "ritnummer": "40",
+        "ritnummer": 40,
         "naam": "Panoramisch Pajottenland",
         "vertrek": "7h30",
         "finish": "Bosberg",
@@ -290,7 +290,7 @@
         "thumbnail": "resources/gpx/Rit40-PanoramischPajottenland-BlosomHerenA.png"
     },
     {
-        "ritnummer": "10",
+        "ritnummer": 10,
         "naam": "Rillaar",
         "vertrek": "9h00",
         "finish": "Bertembos",
@@ -300,7 +300,7 @@
         "thumbnail": "resources/gpx/Rit10-Rillaar-BlosomHerenA.png"
     },
     {
-        "ritnummer": "34",
+        "ritnummer": 34,
         "naam": "Villers-la-Ville",
         "vertrek": "8h00",
         "finish": "Grubbe",
@@ -310,7 +310,7 @@
         "thumbnail": "resources/gpx/Rit34-Villers-la-ville-BlosomHerenA.png"
     },
     {
-        "ritnummer": "31",
+        "ritnummer": 31,
         "naam": "Oteppe",
         "vertrek": "7h30",
         "finish": "Tomme",
@@ -320,7 +320,7 @@
         "thumbnail": "resources/gpx/Rit31-Oteppe-BlosomHerenA.png"
     },
     {
-        "ritnummer": "7",
+        "ritnummer": 7,
         "naam": "Biez",
         "vertrek": "9h00",
         "finish": "Grubbe",
@@ -330,7 +330,7 @@
         "thumbnail": "resources/gpx/Rit07-Biez-BlosomHerenA.png"
     },
     {
-        "ritnummer": "16",
+        "ritnummer": 16,
         "naam": "Blanden",
         "vertrek": "9h00",
         "finish": "Citadel",
@@ -340,7 +340,7 @@
         "thumbnail": "resources/gpx/Rit16-Blanden-BlosomHerenA.png"
     },
     {
-        "ritnummer": "2",
+        "ritnummer": 2,
         "naam": "Langdorp",
         "vertrek": "9h00",
         "finish": "Schuur",
@@ -350,9 +350,9 @@
         "thumbnail": "resources/gpx/Rit02-Langdorp-BlosomHerenA.png"
     },
     {
-        "ritnummer": "55",
+        "ritnummer": 55,
         "naam": "Bobbejaanland",
-        "vertrek": "7h30",
+        "vertrek": "8h30",
         "finish": "Ronny",
         "afstand": 130,
         "hoogtemeters": 502,
@@ -360,7 +360,7 @@
         "thumbnail": "resources/gpx/Rit55-Bobbejaanland-BlosomHerenA.png"
     },
     {
-        "ritnummer": "23",
+        "ritnummer": 23,
         "naam": "Gijmel",
         "vertrek": "8h30",
         "finish": "Ronny",
@@ -370,7 +370,7 @@
         "thumbnail": "resources/gpx/Rit23-Gijmel-BlosomHerenA.png"
     },
     {
-        "ritnummer": "1",
+        "ritnummer": 1,
         "naam": "Bonheiden",
         "vertrek": "9h00",
         "finish": "Ziptstraat",
@@ -380,7 +380,7 @@
         "thumbnail": "resources/gpx/Rit01-Bonheiden-BlosomHerenA.png"
     },
     {
-        "ritnummer": "21",
+        "ritnummer": 21,
         "naam": "Kerkom",
         "vertrek": "9h00",
         "finish": "Ronny",
@@ -390,7 +390,7 @@
         "thumbnail": "resources/gpx/Rit21-Kerkom-BlosomHerenA.png"
     },
     {
-        "ritnummer": "32",
+        "ritnummer": 32,
         "naam": "Orp-Jauche BK",
         "vertrek": "9h00",
         "finish": "Tomme",
@@ -400,7 +400,7 @@
         "thumbnail": "resources/gpx/Rit32-Orp-jaucheBk-BlosomHerenA.png"
     },
     {
-        "ritnummer": "17",
+        "ritnummer": 17,
         "naam": "Nieuwrode",
         "vertrek": "9h00",
         "finish": "Schuur",
@@ -410,7 +410,7 @@
         "thumbnail": "resources/gpx/Rit17-Nieuwrode-BlosomHerenA.png"
     },
     {
-        "ritnummer": "18",
+        "ritnummer": 18,
         "naam": "Baal",
         "vertrek": "9h00",
         "finish": "Botanica",
@@ -420,7 +420,7 @@
         "thumbnail": "resources/gpx/Rit18-Baal-BlosomHerenA.png"
     },
     {
-        "ritnummer": "47",
+        "ritnummer": 47,
         "naam": "Wolfsdonk",
         "vertrek": "9h00",
         "finish": "Ronny",
@@ -430,7 +430,7 @@
         "thumbnail": "resources/gpx/Rit47-Wolfsdonk-BlosomHerenA.png"
     },
     {
-        "ritnummer": "48",
+        "ritnummer": 48,
         "naam": " Marche-les-Dames",
         "vertrek": "7h30",
         "finish": "Tomme",
@@ -440,7 +440,7 @@
         "thumbnail": "resources/gpx/Rit48Marche-les-dames-BlosomHerenA.png"
     },
     {
-        "ritnummer": "20",
+        "ritnummer": 20,
         "naam": "Jodoigne WK",
         "vertrek": "8h30",
         "finish": "Grubbe",
@@ -450,7 +450,7 @@
         "thumbnail": "resources/gpx/Rit20-JodoigneWk-BlosomHerenA.png"
     },
     {
-        "ritnummer": "15",
+        "ritnummer": 15,
         "naam": "Tremelo",
         "vertrek": "9h00",
         "finish": "Ronny",
@@ -460,7 +460,7 @@
         "thumbnail": "resources/gpx/Rit15-Tremelo-BlosomHerenA.png"
     },
     {
-        "ritnummer": "42",
+        "ritnummer": 42,
         "naam": "Bourgeois",
         "vertrek": "9h00",
         "finish": "Bosberg",
@@ -470,7 +470,7 @@
         "thumbnail": "resources/gpx/Rit42-Bourgeois-BlosomHerenA.png"
     },
     {
-        "ritnummer": "12",
+        "ritnummer": 12,
         "naam": "Waterloo",
         "vertrek": "9h00",
         "finish": "Bosberg",
@@ -480,7 +480,7 @@
         "thumbnail": "resources/gpx/Rit12-Waterloo-BlosomHerenA.png"
     },
     {
-        "ritnummer": "37",
+        "ritnummer": 37,
         "naam": "Meensel-Kiezegem",
         "vertrek": "9h00",
         "finish": "Grubbe",
@@ -490,7 +490,7 @@
         "thumbnail": "resources/gpx/Rit37-Meensel-kiezegem-BlosomHerenA.png"
     },
     {
-        "ritnummer": "13",
+        "ritnummer": 13,
         "naam": "Archennes",
         "vertrek": "9h00",
         "finish": "Bertembos",
@@ -500,7 +500,7 @@
         "thumbnail": "resources/gpx/Rit13-Archennes-BlosomHerenA.png"
     },
     {
-        "ritnummer": "44",
+        "ritnummer": 44,
         "naam": "Klein-Willebroek",
         "vertrek": "9h00",
         "finish": "Ziptstraat",
@@ -510,7 +510,7 @@
         "thumbnail": "resources/gpx/Rit44-Klein-willebroek-BlosomHerenA.png"
     },
     {
-        "ritnummer": "8",
+        "ritnummer": 8,
         "naam": "Lovenjoel",
         "vertrek": "9h00",
         "finish": "Sigarenberg",
@@ -520,7 +520,7 @@
         "thumbnail": "resources/gpx/Rit08-Lovenjoel-BlosomHerenA.png"
     },
     {
-        "ritnummer": "26",
+        "ritnummer": 26,
         "naam": "Ronquières",
         "vertrek": "7h30",
         "finish": "Bosberg",
@@ -528,5 +528,15 @@
         "hoogtemeters": 1456,
         "gpx": "resources/gpx/Rit26-Ronquieres-BlosomHerenA.gpx",
         "thumbnail": "resources/gpx/Rit26-Ronquieres-BlosomHerenA.png"
+    },
+    {
+        "ritnummer": 57,
+        "naam": "Sombreffe",
+        "vertrek": "9h00",
+        "finish": "Tomme",
+        "afstand": 119,
+        "hoogtemeters": 1791,
+        "gpx": "resources/gpx/Rit57-Sombreffe-BlosomHerenA.gpx",
+        "thumbnail": "resources/gpx/Rit57-Sombreffe-BlosomHerenA.png"
     }
 ]

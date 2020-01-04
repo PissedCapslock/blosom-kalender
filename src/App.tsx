@@ -45,7 +45,18 @@ export default class App extends React.Component<Props, State>{
     const json = await resp.json();
 
     const kalenderresp = await fetch('resources/kalender.json');
-    const kalenderjson = await kalenderresp.json();
+    const kalenderjson = await kalenderresp.json() as KalenderItem[];
+
+    for(let i =0; i < kalenderjson.length; i++){
+      const ritnummer = kalenderjson[i].ritNummer;
+      if(ritnummer !== -1){
+        for(let j =0; j < kalenderjson.length; j++ ){
+          if (j !== i && kalenderjson[j].ritNummer === ritnummer){
+            throw new Error(`Rit ${ritnummer} staat 2 maal op de kalender`);
+          }
+        }
+      }
+    }
 
     this.setState({ ritten: json, kalender: kalenderjson });
   }

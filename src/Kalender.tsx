@@ -44,7 +44,7 @@ function toData(kalenderItem: KalenderItem, ritten: Rit[]): Data {
   const rit = ritten.find(rit => rit.ritnummer === kalenderItem.ritNummer);
   if (rit) {
     return {
-      datum: kalenderItem.datum,
+      datum: new Date(kalenderItem.datum),
       ritnummer: rit.ritnummer,
       naam: rit.naam,
       afstand: rit.afstand,
@@ -57,7 +57,7 @@ function toData(kalenderItem: KalenderItem, ritten: Rit[]): Data {
     }
   } else {
     return {
-      datum: new Date(),
+      datum: new Date(kalenderItem.datum),
       ritnummer: undefinedRitNummer--,
       naam: "Rit niet gevonden",
       afstand: 0,
@@ -102,7 +102,7 @@ function renderRow(row: Data, properties: Props) {
   const buttonProperties = row.gpx ? { href: row.gpx } : { disabled: true };
   return (
     <TableRow key={row.ritnummer}>
-      <TableCell>{`${row.datum.getDate()}/${row.datum.getMonth()}/${row.datum.getFullYear()}`}</TableCell>
+      <TableCell>{`${row.datum.getDate()}/${row.datum.getMonth() + 1}/${row.datum.getFullYear()}`}</TableCell>
       <TableCell align="right">{row.ritnummer}</TableCell>
       <TableCell>{row.naam}{row.bk ? " (BK)" : ""}{row.wk ? " (WK)" : ""}</TableCell>
       <TableCell align="right">{row.afstand}</TableCell>

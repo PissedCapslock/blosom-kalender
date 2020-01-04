@@ -43,16 +43,16 @@ export default function RitOverview(props: Props) {
     );
 }
 
-function retrieveDatum(rit: Rit, props: Props){
+function retrieveDatum(rit: Rit, props: Props): Date | undefined{
     const kalenderItem = props.kalender
         .find(kalenderItem => kalenderItem.ritNummer === rit.ritnummer);
-    return kalenderItem ? kalenderItem.datum : undefined;
+    return kalenderItem ? new Date(kalenderItem.datum) : undefined;
 }
 
 function renderRit(properties: Props, rit: Rit, classes: Record<"card" | "media", string>) {
     const props = rit.gpx ? { href: rit.gpx } : { disabled: true };
     const datum = retrieveDatum(rit, properties);
-    const datumString = datum ? datum.getDate() + "/" + datum.getMonth() + "/" + datum.getFullYear() : "Niet gepland";
+    const datumString = datum ? datum.getDate() + "/" + (datum.getMonth()+1) + "/" + datum.getFullYear() : "Niet gepland";
     return (
         <Card className={classes.card}>
             <CardActionArea>
