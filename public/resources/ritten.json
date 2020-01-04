@@ -12,7 +12,7 @@
     {
         "ritnummer": 25,
         "naam": "Spy",
-        "vertrek": "7h30",
+        "vertrek": "8h00",
         "finish": "Grubbe",
         "afstand": 127,
         "hoogtemeters": 1279,
@@ -32,7 +32,7 @@
     {
         "ritnummer": 24,
         "naam": "Landen",
-        "vertrek": "8h00",
+        "vertrek": "8h30",
         "finish": "Grubbe",
         "afstand": 117,
         "hoogtemeters": 879,
@@ -82,7 +82,7 @@
     {
         "ritnummer": 45,
         "naam": "Schulen",
-        "vertrek": "8h00",
+        "vertrek": "8h30",
         "finish": "Ronny",
         "afstand": 115,
         "hoogtemeters": 670,
@@ -162,7 +162,7 @@
     {
         "ritnummer": 33,
         "naam": "Westerlo",
-        "vertrek": "8h30",
+        "vertrek": "9h00",
         "finish": "Ronny",
         "afstand": 100,
         "hoogtemeters": 427,
@@ -172,7 +172,7 @@
     {
         "ritnummer": 22,
         "naam": "Averbode",
-        "vertrek": "8h30",
+        "vertrek": "9h00",
         "finish": "Ronny",
         "afstand": 99,
         "hoogtemeters": 446,
@@ -182,7 +182,7 @@
     {
         "ritnummer": 46,
         "naam": "Geraardsbergen",
-        "vertrek": "7h30",
+        "vertrek": "9h00",
         "finish": "Niet standaard",
         "afstand": 130,
         "hoogtemeters": 1447,
@@ -282,7 +282,7 @@
     {
         "ritnummer": 40,
         "naam": "Panoramisch Pajottenland",
-        "vertrek": "7h30",
+        "vertrek": "8h00",
         "finish": "Bosberg",
         "afstand": 121,
         "hoogtemeters": 1248,
@@ -302,7 +302,7 @@
     {
         "ritnummer": 34,
         "naam": "Villers-la-Ville",
-        "vertrek": "8h00",
+        "vertrek": "8h30",
         "finish": "Grubbe",
         "afstand": 110,
         "hoogtemeters": 1350,
@@ -362,7 +362,7 @@
     {
         "ritnummer": 23,
         "naam": "Gijmel",
-        "vertrek": "8h30",
+        "vertrek": "9h00",
         "finish": "Ronny",
         "afstand": 100,
         "hoogtemeters": 403,
@@ -442,7 +442,7 @@
     {
         "ritnummer": 20,
         "naam": "Jodoigne WK",
-        "vertrek": "8h30",
+        "vertrek": "9h00",
         "finish": "Grubbe",
         "afstand": 98,
         "hoogtemeters": 1075,
@@ -522,7 +522,7 @@
     {
         "ritnummer": 26,
         "naam": "Ronquières",
-        "vertrek": "7h30",
+        "vertrek": "8h00",
         "finish": "Bosberg",
         "afstand": 124,
         "hoogtemeters": 1456,
