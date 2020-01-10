@@ -36,7 +36,7 @@
         "bk": false
     },
     {
-        "ritNummer": 12,
+        "ritNummer": 18,
         "datum": "2020-04-12T00:00:00.000Z",
         "wk": false,
         "bk": false
@@ -48,7 +48,7 @@
         "bk": false
     },
     {
-        "ritNummer": 18,
+        "ritNummer": 12,
         "datum": "2020-04-19T00:00:00.000Z",
         "wk": false,
         "bk": false
@@ -96,13 +96,13 @@
         "bk": false
     },
     {
-        "ritNummer": 37,
+        "ritNummer": 46,
         "datum": "2020-05-31T00:00:00.000Z",
         "wk": false,
         "bk": false
     },
     {
-        "ritNummer": 46,
+        "ritNummer": 37,
         "datum": "2020-06-01T00:00:00.000Z",
         "wk": false,
         "bk": false
