@@ -98,11 +98,15 @@ export default function SimpleTable(props: Props) {
   );
 }
 
+function dayOfWeekAsString(dayIndex: number) {
+  return ["Zondag", "Maandag","Dinsdag","Woensdag","Donderdag","Vrijdag","Zaterdag"][dayIndex];
+}
+
 function renderRow(row: Data, properties: Props) {
   const buttonProperties = row.gpx ? { href: row.gpx } : { disabled: true };
   return (
     <TableRow key={row.ritnummer}>
-      <TableCell>{`${row.datum.getDate()}/${row.datum.getMonth() + 1}/${row.datum.getFullYear()}`}</TableCell>
+      <TableCell>{`${row.datum.getDate()}/${row.datum.getMonth() + 1}/${row.datum.getFullYear()} (${dayOfWeekAsString(row.datum.getDay())})`}</TableCell>
       <TableCell align="right">{row.ritnummer}</TableCell>
       <TableCell>{row.naam}{row.bk ? " (BK)" : ""}{row.wk ? " (WK)" : ""}</TableCell>
       <TableCell align="right">{row.afstand}</TableCell>
