@@ -14,7 +14,6 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import { KalenderItem } from './KalenderItem';
 import Switch from '@material-ui/core/Switch';
-import Box from '@material-ui/core/Box';
 
 export interface Props {
     ritten: Rit[],
