@@ -80,7 +80,7 @@ export default class App extends React.Component<Props, State>{
             centered
           >
             <Tab label="Beschikbare ritten" />
-            <Tab label="Kalender 2020" />
+            <Tab label="Kalender 2021" />
             <Tab label="Kaart" />
           </Tabs>
         </Paper>

@@ -56,7 +56,7 @@ export default function SimpleTabs() {
       <AppBar position="static">
         <Tabs value={value} onChange={handleChange} aria-label="simple tabs example">
           <Tab label="Beschikbare ritten" {...a11yProps(0)} />
-          <Tab label="Kalender 2020" {...a11yProps(1)} />
+          <Tab label="Kalender 2021" {...a11yProps(1)} />
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
