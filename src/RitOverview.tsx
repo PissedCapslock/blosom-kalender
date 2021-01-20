@@ -83,6 +83,17 @@ function renderRit(properties: Props, rit: Rit, classes: Record<"card" | "media"
     const props = rit.gpx ? { href: rit.gpx } : { disabled: true };
     const datum = retrieveDatum(rit, properties);
     const datumString = datum ? datum.getDate() + "/" + (datum.getMonth() + 1) + "/" + datum.getFullYear() : "Niet gepland";
+
+    const kalenderItem = properties.kalender
+            .find(kalenderItem => kalenderItem.ritNummer === rit.ritnummer);
+
+    let suffix="";
+    if(kalenderItem && kalenderItem.wk){
+        suffix = " (WK)";
+    }
+    if(kalenderItem && kalenderItem.bk){
+            suffix = " (BK)";
+        }
     return (
         <Card className={classes.card}>
             <CardActionArea>
@@ -93,7 +104,7 @@ function renderRit(properties: Props, rit: Rit, classes: Record<"card" | "media"
                 />
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="h2">
-                        Rit {rit.ritnummer}: {rit.naam}
+                        Rit {rit.ritnummer}: {rit.naam} {suffix}
                     </Typography>
                     <Typography variant="body2" color="textSecondary" component="p">
                         <FontAwesomeIcon icon={faRoute} />&nbsp;{rit.afstand} km<br />

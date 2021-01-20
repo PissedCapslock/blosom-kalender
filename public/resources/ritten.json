@@ -42,7 +42,7 @@
     {
         "ritnummer": 28,
         "naam": "Namen",
-        "vertrek": "7h30",
+        "vertrek": "8h00",
         "finish": "Grubbe",
         "afstand": 153,
         "hoogtemeters": 1690,
@@ -72,7 +72,7 @@
     {
         "ritnummer": 27,
         "naam": "Hoei",
-        "vertrek": "7h30",
+        "vertrek": "8h00",
         "finish": "Grubbe",
         "afstand": 169,
         "hoogtemeters": 1753,
@@ -312,7 +312,7 @@
     {
         "ritnummer": 31,
         "naam": "Oteppe",
-        "vertrek": "7h30",
+        "vertrek": "8h00",
         "finish": "Tomme",
         "afstand": 142,
         "hoogtemeters": 1225,
@@ -432,7 +432,7 @@
     {
         "ritnummer": 48,
         "naam": " Marche-les-Dames",
-        "vertrek": "7h30",
+        "vertrek": "8h00",
         "finish": "Tomme",
         "afstand": 157,
         "hoogtemeters": 1584,
