@@ -1,0 +1,243 @@
+[
+  {
+      "ritNummer": 14,
+      "datum": "2022-03-06T00:00:00.000Z",
+      "wk": false,
+      "bk": false
+  },
+  {
+      "ritNummer": 7,
+      "datum": "2022-03-13T00:00:00.000Z",
+      "wk": false,
+      "bk": false
+  },
+  {
+      "ritNummer": 33,
+      "datum": "2022-03-20T00:00:00.000Z",
+      "wk": false,
+      "bk": false
+  },
+  {
+      "ritNummer": 13,
+      "datum": "2022-03-27T00:00:00.000Z",
+      "wk": false,
+      "bk": false
+  },
+  {
+      "ritNummer": 19,
+      "datum": "2022-04-03T00:00:00.000Z",
+      "wk": false,
+      "bk": false
+  },
+  {
+      "ritNummer": 5,
+      "datum": "2022-04-10T00:00:00.000Z",
+      "wk": false,
+      "bk": false
+  },
+  {
+      "ritNummer": 24,
+      "datum": "2022-04-17T00:00:00.000Z",
+      "wk": false,
+      "bk": false
+  },
+  {
+      "ritNummer": 42,
+      "datum": "2022-04-18T00:00:00.000Z",
+      "wk": false,
+      "bk": false
+  },
+  {
+      "ritNummer": 12,
+      "datum": "2022-04-24T00:00:00.000Z",
+      "wk": false,
+      "bk": false
+  },
+  {
+      "ritNummer": 55,
+      "datum": "2022-05-01T00:00:00.000Z",
+      "wk": false,
+      "bk": false
+  },
+  {
+      "ritNummer": 25,
+      "datum": "2022-05-08T00:00:00.000Z",
+      "wk": false,
+      "bk": false
+  },
+  
+  {
+      "ritNummer": 59,
+      "datum": "2022-05-15T00:00:00.000Z",
+      "wk": false,
+      "bk": false
+  },
+  {
+      "ritNummer": 28,
+      "datum": "2022-05-22T00:00:00.000Z",
+      "wk": false,
+      "bk": false
+  },
+  {
+      "ritNummer": 52,
+      "datum": "2022-05-26T00:00:00.000Z",
+      "wk": false,
+      "bk": false
+  },
+  {
+      "ritNummer": 46,
+      "datum": "2022-05-29T00:00:00.000Z",
+      "wk": false,
+      "bk": false
+  },
+  {
+      "ritNummer": 37,
+      "datum": "2022-06-05T00:00:00.000Z",
+      "wk": false,
+      "bk": false
+  },
+  {
+      "ritNummer": 18,
+      "datum": "2022-06-06T00:00:00.000Z",
+      "wk": false,
+      "bk": false
+  },
+  {
+      "ritNummer": 49,
+      "datum": "2022-06-12T00:00:00.000Z",
+      "wk": false,
+      "bk": false
+  },
+  {
+      "ritNummer": 45,
+      "datum": "2022-06-19T00:00:00.000Z",
+      "wk": false,
+      "bk": false
+  },
+  {
+      "ritNummer": 53,
+      "datum": "2022-06-26T00:00:00.000Z",
+      "wk": false,
+      "bk": true
+  },
+  {
+      "ritNummer": 48,
+      "datum": "2022-07-03T00:00:00.000Z",
+      "wk": false,
+      "bk": false
+  },
+  {
+      "ritNummer": 36,
+      "datum": "2022-07-10T00:00:00.000Z",
+      "wk": false,
+      "bk": false
+  },
+  {
+      "ritNummer": 31,
+      "datum": "2022-07-17T00:00:00.000Z",
+      "wk": false,
+      "bk": false
+  },
+  {
+      "ritNummer": 41,
+      "datum": "2022-07-21T00:00:00.000Z",
+      "wk": false,
+      "bk": false
+  },
+  {
+      "ritNummer": 51,
+      "datum": "2022-07-24T00:00:00.000Z",
+      "wk": false,
+      "bk": false
+  },
+  {
+      "ritNummer": 26,
+      "datum": "2022-07-31T00:00:00.000Z",
+      "wk": false,
+      "bk": false
+  },
+  {
+      "ritNummer": 23,
+      "datum": "2022-08-07T00:00:00.000Z",
+      "wk": false,
+      "bk": false
+  },
+  {
+      "ritNummer": 27,
+      "datum": "2022-08-14T00:00:00.000Z",
+      "wk": false,
+      "bk": false
+  },
+  {
+      "ritNummer": 29,
+      "datum": "2022-08-15T00:00:00.000Z",
+      "wk": false,
+      "bk": false
+  },
+  {
+      "ritNummer": 22,
+      "datum": "2022-08-21T00:00:00.000Z",
+      "wk": false,
+      "bk": false
+  },
+  {
+      "ritNummer": 57,
+      "datum": "2022-08-28T00:00:00.000Z",
+      "wk": false,
+      "bk": false
+  },
+  {
+      "ritNummer": 54,
+      "datum": "2022-09-04T00:00:00.000Z",
+      "wk": false,
+      "bk": false
+  },
+  {
+      "ritNummer": 44,
+      "datum": "2022-09-11T00:00:00.000Z",
+      "wk": false,
+      "bk": false
+  },
+  {
+      "ritNummer": 40,
+      "datum": "2022-09-18T00:00:00.000Z",
+      "wk": false,
+      "bk": false
+  },
+  {
+      "ritNummer": 20,
+      "datum": "2022-09-25T00:00:00.000Z",
+      "wk": true,
+      "bk": false
+  },
+  {
+      "ritNummer": 34,
+      "datum": "2022-10-02T00:00:00.000Z",
+      "wk": false,
+      "bk": false
+  },
+  {
+      "ritNummer": 3,
+      "datum": "2022-10-09T00:00:00.000Z",
+      "wk": false,
+      "bk": false
+  },
+  {
+      "ritNummer": 35,
+      "datum": "2022-10-16T00:00:00.000Z",
+      "wk": false,
+      "bk": false
+  },
+  {
+      "ritNummer": 43,
+      "datum": "2022-10-23T00:00:00.000Z",
+      "bk": false,
+      "wk": false
+  },
+  {
+      "ritNummer": 1,
+      "datum": "2022-10-30T00:00:00.000Z",
+      "wk": false,
+      "bk": false
+  }
+]

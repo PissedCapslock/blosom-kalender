@@ -1,32 +1,33 @@
-import React from 'react';
-import './App.css';
-import { Rit } from './Rit';
-import * as RitOverview from './RitOverview';
-import * as Kalender from './Kalender';
-import { Container } from '@material-ui/core';
-import Paper from '@material-ui/core/Paper';
-import Tabs from '@material-ui/core/Tabs';
-import Tab from '@material-ui/core/Tab';
-import Typography from '@material-ui/core/Typography';
-import Box from '@material-ui/core/Box';
-import { Map } from './Map';
-import {KalenderItem} from './KalenderItem';
+import React from "react";
+import "./App.css";
+import { Rit } from "./Rit";
+import * as RitOverview from "./RitOverview";
+import * as Kalender from "./Kalender";
+import { Container } from "@material-ui/core";
+import Paper from "@material-ui/core/Paper";
+import Tabs from "@material-ui/core/Tabs";
+import Tab from "@material-ui/core/Tab";
+import Typography from "@material-ui/core/Typography";
+import Box from "@material-ui/core/Box";
+import { Map } from "./Map";
+import { KalenderItem } from "./KalenderItem";
 
-interface Props {
+const huidig_jaar = 2022;
+const vorig_jaar = huidig_jaar - 1;
 
-}
+interface Props {}
 interface State {
-  ritten: Rit[],
-  kalender: KalenderItem[],
-  selectedTab: number,
-  selectedGPX: string | undefined
+  ritten: Rit[];
+  kalender_nu: KalenderItem[];
+  kalender_vorig: KalenderItem[];
+  selectedTab: number;
+  selectedGPX: string | undefined;
 }
 
-export default class App extends React.Component<Props, State>{
-
+export default class App extends React.Component<Props, State> {
   private handleChange = (event: React.ChangeEvent<{}>, newValue: number) => {
     this.setState({
-      selectedTab: newValue
+      selectedTab: newValue,
     });
   };
 
@@ -34,38 +35,52 @@ export default class App extends React.Component<Props, State>{
     super(props);
     this.state = {
       ritten: [],
-      kalender: [],
+      kalender_nu: [],
+      kalender_vorig: [],
       selectedTab: 0,
-      selectedGPX: undefined
+      selectedGPX: undefined,
     };
   }
 
   async componentDidMount() {
-    const resp = await fetch('resources/ritten.json');
+    const resp = await fetch("resources/ritten.json");
     const json = await resp.json();
 
-    const kalenderresp = await fetch('resources/kalender.json');
-    const kalenderjson = await kalenderresp.json() as KalenderItem[];
+    const kalenderresp_huidig = await fetch(
+      `resources/kalender_${huidig_jaar}.json`
+    );
+    const kalenderjson_huidig =
+      (await kalenderresp_huidig.json()) as KalenderItem[];
 
-    for(let i =0; i < kalenderjson.length; i++){
-      const ritnummer = kalenderjson[i].ritNummer;
-      if(ritnummer !== -1){
-        for(let j =0; j < kalenderjson.length; j++ ){
-          if (j !== i && kalenderjson[j].ritNummer === ritnummer){
+    const kalenderresp_vorig = await fetch(
+      `resources/kalender_${vorig_jaar}.json`
+    );
+    const kalenderjson_vorig =
+      (await kalenderresp_vorig.json()) as KalenderItem[];
+
+    for (let i = 0; i < kalenderjson_huidig.length; i++) {
+      const ritnummer = kalenderjson_huidig[i].ritNummer;
+      if (ritnummer !== -1) {
+        for (let j = 0; j < kalenderjson_huidig.length; j++) {
+          if (j !== i && kalenderjson_huidig[j].ritNummer === ritnummer) {
             throw new Error(`Rit ${ritnummer} staat 2 maal op de kalender`);
           }
         }
       }
     }
 
-    this.setState({ ritten: json, kalender: kalenderjson });
+    this.setState({
+      ritten: json,
+      kalender_nu: kalenderjson_huidig,
+      kalender_vorig: kalenderjson_vorig,
+    });
   }
 
-  showGPXOnMap(gpx: string | undefined){
+  showGPXOnMap(gpx: string | undefined) {
     this.setState({
-      selectedTab: 2,
-      selectedGPX: gpx
-    })
+      selectedTab: 3,
+      selectedGPX: gpx,
+    });
   }
 
   render() {
@@ -80,21 +95,37 @@ export default class App extends React.Component<Props, State>{
             centered
           >
             <Tab label="Beschikbare ritten" />
-            <Tab label="Kalender 2021" />
+            <Tab label={`Kalender ${huidig_jaar}`} />
+            <Tab label={`Kalender ${vorig_jaar}`} />
             <Tab label="Kaart" />
           </Tabs>
         </Paper>
 
         <TabPanel value={this.state.selectedTab} index={0}>
-          <RitOverview.default ritten={this.state.ritten} showOnMapCallBack={this.showGPXOnMap.bind(this)} kalender={this.state.kalender}/>
+          <RitOverview.default
+            ritten={this.state.ritten}
+            showOnMapCallBack={this.showGPXOnMap.bind(this)}
+            kalender={this.state.kalender_nu}
+          />
         </TabPanel>
         <TabPanel value={this.state.selectedTab} index={1}>
-          <Kalender.default ritten={this.state.ritten} showOnMapCallBack={this.showGPXOnMap.bind(this)} kalender={this.state.kalender}/>
+          <Kalender.default
+            ritten={this.state.ritten}
+            showOnMapCallBack={this.showGPXOnMap.bind(this)}
+            kalender={this.state.kalender_nu}
+          />
         </TabPanel>
         <TabPanel value={this.state.selectedTab} index={2}>
+          <Kalender.default
+            ritten={this.state.ritten}
+            showOnMapCallBack={this.showGPXOnMap.bind(this)}
+            kalender={this.state.kalender_vorig}
+          />
+        </TabPanel>
+        <TabPanel value={this.state.selectedTab} index={3}>
           <div id="leaflet-container">
-            <Map gpx={this.state.selectedGPX}/>
-          </div>            
+            <Map gpx={this.state.selectedGPX} />
+          </div>
         </TabPanel>
       </Container>
     );
