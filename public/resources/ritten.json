@@ -538,5 +538,15 @@
         "hoogtemeters": 1791,
         "gpx": "resources/gpx/Rit57-Sombreffe-BlosomHerenA.gpx",
         "thumbnail": "resources/gpx/Rit57-Sombreffe-BlosomHerenA.png"
+    },
+    {
+        "ritnummer": 58,
+        "naam": "Goudveerdegem",
+        "vertrek": "8h30",
+        "finish": "?",
+        "afstand": 105,
+        "hoogtemeters": 900,
+        "gpx": null,
+        "thumbnail": null
     }
 ]
