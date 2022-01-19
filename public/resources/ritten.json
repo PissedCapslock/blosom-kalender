@@ -242,7 +242,7 @@
     {
         "ritnummer": 19,
         "naam": "Vissenaken",
-        "vertrek": "8h30",
+        "vertrek": "9h00",
         "finish": "Ronny",
         "afstand": 106,
         "hoogtemeters": 746,
@@ -272,7 +272,7 @@
     {
         "ritnummer": 54,
         "naam": "Nijvel",
-        "vertrek": "8h00",
+        "vertrek": "8h30",
         "finish": "Ziptstraat",
         "afstand": 113,
         "hoogtemeters": 1336,
