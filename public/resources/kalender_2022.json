@@ -193,9 +193,9 @@
       "bk": false
   },
   {
-    "ritNummer": 34,
-    "datum": "2022-10-02T00:00:00.000Z",
-    "wk": false,
+    "ritNummer": 20,
+    "datum": "2022-09-11T00:00:00.000Z",
+    "wk": true,
     "bk": false
   },
   {
@@ -205,14 +205,14 @@
       "bk": false
   },
   {
-      "ritNummer": 20,
-      "datum": "2022-09-11T00:00:00.000Z",
-      "wk": true,
-      "bk": false
-  },
-  {
     "ritNummer": 44,
     "datum": "2022-09-25T00:00:00.000Z",
+    "wk": false,
+    "bk": false
+  },
+  {
+    "ritNummer": 34,
+    "datum": "2022-10-02T00:00:00.000Z",
     "wk": false,
     "bk": false
   },

@@ -1,22 +1,25 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Table from '@material-ui/core/Table';
-import TableBody from '@material-ui/core/TableBody';
-import TableCell from '@material-ui/core/TableCell';
-import TableContainer from '@material-ui/core/TableContainer';
-import TableHead from '@material-ui/core/TableHead';
-import TableRow from '@material-ui/core/TableRow';
-import Paper from '@material-ui/core/Paper';
-import { Rit } from './Rit';
-import { KalenderItem } from './KalenderItem';
-import { faFileDownload, faMapMarkedAlt } from '@fortawesome/free-solid-svg-icons';
-import Button from '@material-ui/core/Button';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React from "react";
+import { makeStyles } from "@material-ui/core/styles";
+import Table from "@material-ui/core/Table";
+import TableBody from "@material-ui/core/TableBody";
+import TableCell from "@material-ui/core/TableCell";
+import TableContainer from "@material-ui/core/TableContainer";
+import TableHead from "@material-ui/core/TableHead";
+import TableRow from "@material-ui/core/TableRow";
+import Paper from "@material-ui/core/Paper";
+import { Rit } from "./Rit";
+import { KalenderItem } from "./KalenderItem";
+import {
+  faFileDownload,
+  faMapMarkedAlt,
+} from "@fortawesome/free-solid-svg-icons";
+import Button from "@material-ui/core/Button";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export interface Props {
-  ritten: Rit[],
-  kalender: KalenderItem[],
-  showOnMapCallBack(gpx: string | undefined): void
+  ritten: Rit[];
+  kalender: KalenderItem[];
+  showOnMapCallBack(gpx: string | undefined): void;
 }
 
 let undefinedRitNummer = -1;
@@ -41,7 +44,7 @@ interface Data {
 }
 
 function toData(kalenderItem: KalenderItem, ritten: Rit[]): Data {
-  const rit = ritten.find(rit => rit.ritnummer === kalenderItem.ritNummer);
+  const rit = ritten.find((rit) => rit.ritnummer === kalenderItem.ritNummer);
   if (rit) {
     return {
       datum: new Date(kalenderItem.datum),
@@ -53,8 +56,8 @@ function toData(kalenderItem: KalenderItem, ritten: Rit[]): Data {
       aankomst: rit.finish,
       bk: kalenderItem.bk,
       wk: kalenderItem.wk,
-      gpx: rit.gpx
-    }
+      gpx: rit.gpx,
+    };
   } else {
     return {
       datum: new Date(kalenderItem.datum),
@@ -65,15 +68,16 @@ function toData(kalenderItem: KalenderItem, ritten: Rit[]): Data {
       vertrek: "0h00",
       aankomst: "?",
       bk: false,
-      wk: false
-    }
+      wk: false,
+    };
   }
 }
 
 export default function SimpleTable(props: Props) {
-
   const classes = useStyles();
-  const rows = props.kalender.map(item => toData(item, props.ritten));
+  const rows = props.kalender
+    .map((item) => toData(item, props.ritten))
+    .sort((ritA, ritB) => ritA.datum.getTime() - ritB.datum.getTime());
   return (
     <TableContainer component={Paper}>
       <Table className={classes.table} aria-label="simple table">
@@ -90,25 +94,39 @@ export default function SimpleTable(props: Props) {
             <TableCell>Kaart</TableCell>
           </TableRow>
         </TableHead>
-        <TableBody>
-          {rows.map(row => renderRow(row, props))}
-        </TableBody>
+        <TableBody>{rows.map((row) => renderRow(row, props))}</TableBody>
       </Table>
     </TableContainer>
   );
 }
 
 function dayOfWeekAsString(dayIndex: number) {
-  return ["Zondag", "Maandag","Dinsdag","Woensdag","Donderdag","Vrijdag","Zaterdag"][dayIndex];
+  return [
+    "Zondag",
+    "Maandag",
+    "Dinsdag",
+    "Woensdag",
+    "Donderdag",
+    "Vrijdag",
+    "Zaterdag",
+  ][dayIndex];
 }
 
 function renderRow(row: Data, properties: Props) {
   const buttonProperties = row.gpx ? { href: row.gpx } : { disabled: true };
   return (
     <TableRow key={row.ritnummer}>
-      <TableCell>{`${row.datum.getDate()}/${row.datum.getMonth() + 1}/${row.datum.getFullYear()} (${dayOfWeekAsString(row.datum.getDay())})`}</TableCell>
+      <TableCell>{`${row.datum.getDate()}/${
+        row.datum.getMonth() + 1
+      }/${row.datum.getFullYear()} (${dayOfWeekAsString(
+        row.datum.getDay()
+      )})`}</TableCell>
       <TableCell align="right">{row.ritnummer}</TableCell>
-      <TableCell>{row.naam}{row.bk ? " (BK)" : ""}{row.wk ? " (WK)" : ""}</TableCell>
+      <TableCell>
+        {row.naam}
+        {row.bk ? " (BK)" : ""}
+        {row.wk ? " (WK)" : ""}
+      </TableCell>
       <TableCell align="right">{row.afstand}</TableCell>
       <TableCell align="right">{row.hoogtemeters}</TableCell>
       <TableCell align="right">{row.vertrek}</TableCell>
@@ -119,10 +137,15 @@ function renderRow(row: Data, properties: Props) {
         </Button>
       </TableCell>
       <TableCell>
-        <Button size="small" color="primary" onClick={() => properties.showOnMapCallBack(row.gpx)} disabled={row.gpx === undefined}>
+        <Button
+          size="small"
+          color="primary"
+          onClick={() => properties.showOnMapCallBack(row.gpx)}
+          disabled={row.gpx === undefined}
+        >
           <FontAwesomeIcon icon={faMapMarkedAlt} />
         </Button>
       </TableCell>
-    </TableRow >
+    </TableRow>
   );
 }
