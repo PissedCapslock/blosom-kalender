@@ -12,7 +12,7 @@ import Box from "@material-ui/core/Box";
 import { Map } from "./Map";
 import { KalenderItem } from "./KalenderItem";
 
-const huidig_jaar = 2022;
+const huidig_jaar = 2023;
 const vorig_jaar = huidig_jaar - 1;
 
 interface Props {}

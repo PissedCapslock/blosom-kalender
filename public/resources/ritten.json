@@ -542,11 +542,41 @@
     {
         "ritnummer": 60,
         "naam": "Goudveerdegem",
-        "vertrek": "8h30",
-        "finish": "?",
+        "vertrek": "9h00",
+        "finish": "Ziptstraat",
         "afstand": 105,
         "hoogtemeters": 900,
-        "gpx": null,
+        "gpx": "resources/gpx/Rit60-Goudveerdegem-BlosomHerenA.gpx",
         "thumbnail": null
+    },
+    {
+      "ritnummer": 61,
+      "naam": "Road to Ruins",
+      "vertrek": "9h00",
+      "finish": "Grubbe",
+      "afstand": 107,
+      "hoogtemeters": 1150,
+      "gpx": "resources/gpx/Rit61-Road-to-Ruins-BlosomHerenA.gpx",
+      "thumbnail": null
+    },
+    {
+      "ritnummer": 62,
+      "naam": "Berloz",
+      "vertrek": "8h30",
+      "finish": "Tomme",
+      "afstand": 130,
+      "hoogtemeters": 920,
+      "gpx": "resources/gpx/Rit62-Berloz-BlosomHerenA.gpx",
+      "thumbnail": null
+    },
+    {
+      "ritnummer": 63,
+      "naam": "Steenkerque",
+      "vertrek": "8h00",
+      "finish": "Bosberg",
+      "afstand": 149,
+      "hoogtemeters": 1406,
+      "gpx": "resources/gpx/Rit63-Steenkerque-BlosomHerenA.gpx",
+      "thumbnail": null
     }
 ]
