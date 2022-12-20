@@ -28,9 +28,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "prebuild": "npm run-script generate-geojson-files",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "generate-geojson-files": "node scripts/convert_gpx_to_geojson.js"
   },
   "eslintConfig": {
     "extends": "react-app"
