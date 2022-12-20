@@ -434,7 +434,7 @@
         "naam": " Marche-les-Dames",
         "vertrek": "8h00",
         "finish": "Tomme",
-        "afstand": 157,
+        "afstand": 147,
         "hoogtemeters": 1584,
         "gpx": "resources/gpx/Rit48Marche-les-dames-BlosomHerenA.gpx",
         "thumbnail": "resources/gpx/Rit48Marche-les-dames-BlosomHerenA.png"
@@ -522,7 +522,7 @@
     {
         "ritnummer": 26,
         "naam": "Ronquières",
-        "vertrek": "8h00",
+        "vertrek": "8h30",
         "finish": "Bosberg",
         "afstand": 124,
         "hoogtemeters": 1456,
